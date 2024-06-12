@@ -20,7 +20,8 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true,
     "paths": {
-      "*": ["./src/*"]
+      "pages/*": ["./src/pages/*"],
+      "store/*": ["./src/store/*"]
     }
   },
   "include": ["src"],

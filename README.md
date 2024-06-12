@@ -1,30 +1,23 @@
-# React + TypeScript + Vite
+# React + TS Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Technology stack 技术栈
 
-Currently, two official plugins are available:
+### Framework 框架 —— Vite React TypeScript Scss
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### Router 页面路由 —— Vue-router
 
-## Expanding the ESLint configuration
+### Store 状态管理 —— Pinia
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- #### pinia-plugin-persistedstate
 
-- Configure the top-level `parserOptions` property like this:
+### UI 用户界面 —— ElmentUI Vant
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- #### unplugin-auto-import
+- #### unplugin-vue-components
+- #### unplugin-icons
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+### Request 网络请求 —— Axios
+
+### Quality 代码质量 —— Eslint Prettier Husky Lint-stage
+
+### Mobile 移动端适配 —— postcss-mobile-forever
