@@ -1,5 +1,5 @@
 import { message } from 'antd'
-import axios, { AxiosRequestConfig, Method } from 'axios'
+import axios, { type AxiosRequestConfig, type Method } from 'axios'
 
 export interface IResponse<T> {
   code: number
