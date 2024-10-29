@@ -15,4 +15,4 @@
 
 ### Request 网络请求 —— Axios SWR
 
-### Quality 代码质量 —— Biome Husky Lint-stage
+### Quality 代码质量 —— Biome Simple-git-hooks Lint-stage
