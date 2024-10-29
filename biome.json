@@ -1,12 +1,12 @@
 {
-  "$schema": "https://biomejs.dev/schemas/1.8.1/schema.json",
-  "organizeImports": {
-    "enabled": true
-  },
+  "$schema": "https://biomejs.dev/schemas/1.9.4/schema.json",
   "linter": {
     "enabled": true,
     "rules": {
-      "recommended": true
+      "recommended": true,
+      "style": {
+        "useImportType": "off"
+      }
     }
   },
   "formatter": {
@@ -14,7 +14,7 @@
   },
   "javascript": {
     "formatter": {
-      "quoteStyle": "single",
+      "quoteStyle":"single",
       "semicolons": "asNeeded"
     }
   }
